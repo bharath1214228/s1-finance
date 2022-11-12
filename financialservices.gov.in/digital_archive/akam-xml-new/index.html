@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from financialservices.gov.in/digital_archive/akam-xml-new/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Nov 2022 13:15:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>AKAM Digital Archive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="https://financialservices.gov.in/digital_archive/akam-xml-new/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://financialservices.gov.in/digital_archive/akam-xml-new/css/style.css">
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+
+    body {
+      /* overflow-y: hidden; */
+      /* height: 100vh; */
+    }
+    body::-webkit-scrollbar {
+      display: none;
+    }
+    .bg {
+      position:fixed;
+      width: 100%;
+      background-size: cover;
+      /* height: 115vh; */
+      /* height: calc(); */
+      /* overflow-y: hidden; */
+      overflow-y: scroll;
+    }
+
+    .lang-cont {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 40px;
+      margin-bottom: 3em;
+
+    }
+
+    .single-logo-center>h1 {
+      font-size: 2rem;
+      text-align: center;
+      padding-top: 1em;
+      font-weight: 600;
+      /* color: #b49c76; */
+    }
+
+    .solo-lang {
+      text-align: center;
+    }
+
+    .lang-div {
+      margin: 0em auto;
+      padding: 0;
+      width: 80%;
+      text-align: center;
+      margin-bottom: 1em;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 999;
+    }
+
+    .lang-div .multi {
+      margin:  0;
+      width: 40%;
+    }
+
+    .multi:nth-of-type(1) a,
+    .multi:nth-of-type(1) p {
+      margin-right: -22%;
+    }
+
+    .multi:nth-of-type(2) a,
+    .multi:nth-of-type(2) p {
+      margin-left: -22%;
+    }
+
+    .multi:nth-of-type(3) a,
+    .multi:nth-of-type(3) p {
+      margin-right: 30%;
+    }
+
+    .multi:nth-of-type(4) a,
+    .multi:nth-of-type(4) p {
+      margin-left: 30%;
+    }
+
+    .multi:nth-of-type(5) a,
+    .multi:nth-of-type(5) p {
+      margin-right: 65%;
+    }
+
+    .multi:nth-of-type(6) a,
+    .multi:nth-of-type(6) p {
+      margin-left: 65%;
+    }
+
+    .multi:nth-of-type(7) a,
+    .multi:nth-of-type(7) p {
+      margin-right: 65%;
+    }
+
+    .multi:nth-of-type(8) a,
+    .multi:nth-of-type(8) p {
+      margin-left: 65%;
+    }
+
+    .multi:nth-of-type(9) a,
+    .multi:nth-of-type(9) p {
+      margin-right: 30%;
+    }
+
+    .multi:nth-of-type(10) a,
+    .multi:nth-of-type(10) p {
+      margin-left: 30%;
+    }
+
+    .multi:nth-of-type(11) a,
+    .multi:nth-of-type(11) p {
+      margin-right: -40%;
+    }
+
+    .multi:nth-of-type(12) a,
+    .multi:nth-of-type(12) p {
+      margin-left: -45%;
+    }
+
+    .solo-lang a,
+    .lang-cont a,
+    .lang-div a {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      margin: 0 0.5rem;
+      color: #b49c76;
+      z-index: 999;
+    }
+
+    .lang-div a.active {
+      color: #ac630b;
+      pointer-events: none;
+    }
+
+    .search-cont h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.5rem;
+    }
+
+    .container {
+      padding: 0;
+    }
+
+    .text-center {
+      position: absolute;
+      left: 31%;
+      top: 32%;
+      z-index: 1;
+    }
+
+    .akam-gif-logo {
+      width: 80%;
+    }
+
+    @media screen and (max-width: 1680px) {
+      .single-logo-center>h1 {
+        font-size: 1.8rem;
+        padding-top: 0.8em;
+      }
+
+      .text-center {
+        left: 30%;
+        top: 32%;
+      }
+
+      .akam-gif-logo {
+        width: 68%;
+      }
+
+      .solo-lang p {
+        margin-bottom: 0px;
+      }
+
+      .solo-lang a,
+      .lang-cont a,
+      .lang-div a {
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      .lang-cont {
+        padding-top: 40px;
+      }
+
+      .lang-div {
+        margin: 0em auto 1em;
+        padding: 0;
+        width: 80%;
+        text-align: center;
+        gap: 18px;
+      }
+
+      .lang-div .multi {
+        margin: 0;
+        width: 40%;
+      }
+
+      .multi:nth-of-type(1) a,
+      .multi:nth-of-type(1) p {
+        margin-right: -30%;
+      }
+
+      .multi:nth-of-type(2) a,
+      .multi:nth-of-type(2) p {
+        margin-left: -30%;
+      }
+
+      .multi:nth-of-type(3) a,
+      .multi:nth-of-type(3) p {
+        margin-right: 32%;
+      }
+
+      .multi:nth-of-type(4) a,
+      .multi:nth-of-type(4) p {
+        margin-left: 32%;
+      }
+
+      .multi:nth-of-type(5) a,
+      .multi:nth-of-type(5) p {
+        margin-right: 70%;
+      }
+
+      .multi:nth-of-type(6) a,
+      .multi:nth-of-type(6) p {
+        margin-left: 70%;
+      }
+
+      .multi:nth-of-type(7) a,
+      .multi:nth-of-type(7) p {
+        margin-right: 70%;
+      }
+
+      .multi:nth-of-type(8) a,
+      .multi:nth-of-type(8) p {
+        margin-left: 70%;
+      }
+
+      .multi:nth-of-type(9) a,
+      .multi:nth-of-type(9) p {
+        margin-right: 32%;
+      }
+
+      .multi:nth-of-type(10) a,
+      .multi:nth-of-type(10) p {
+        margin-left: 32%;
+      }
+
+      .multi:nth-of-type(11) a,
+      .multi:nth-of-type(11) p {
+        margin-right: -40%;
+      }
+
+      .multi:nth-of-type(12) a,
+      .multi:nth-of-type(12) p {
+        margin-left: -38%;
+      }
+    }
+    
+    @media screen and (max-width: 1536px) and (max-height:746px) {
+    
+    }
+
+    @media screen and (max-width: 1440px) {
+      .single-logo-center>h1 {
+        font-size: 1.8rem;
+        padding-top: 0.8em;
+      }
+
+      .text-center {
+        left: 27%;
+        top: 32%;
+      }
+
+      .akam-gif-logo {
+        width: 69%;
+      }
+
+      .solo-lang p {
+        margin-bottom: 0px;
+      }
+
+      .solo-lang a,
+      .lang-cont a,
+      .lang-div a {
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      .lang-cont {
+        padding-top: 40px;
+      }
+
+      .lang-div {
+        margin: 0em auto 1em;
+        padding: 0;
+        width: 80%;
+        text-align: center;
+        gap: 5px;
+      }
+
+      .lang-div .multi {
+        margin:0;
+        width: 40%;
+      }
+
+      .multi:nth-of-type(1) a,
+      .multi:nth-of-type(1) p {
+        margin-right: -30%;
+      }
+
+      .multi:nth-of-type(2) a,
+      .multi:nth-of-type(2) p {
+        margin-left: -30%;
+      }
+
+      .multi:nth-of-type(3) a,
+      .multi:nth-of-type(3) p {
+        margin-right: 32%;
+      }
+
+      .multi:nth-of-type(4) a,
+      .multi:nth-of-type(4) p {
+        margin-left: 32%;
+      }
+
+      .multi:nth-of-type(5) a,
+      .multi:nth-of-type(5) p {
+        margin-right: 70%;
+      }
+
+      .multi:nth-of-type(6) a,
+      .multi:nth-of-type(6) p {
+        margin-left: 70%;
+      }
+
+      .multi:nth-of-type(7) a,
+      .multi:nth-of-type(7) p {
+        margin-right: 70%;
+      }
+
+      .multi:nth-of-type(8) a,
+      .multi:nth-of-type(8) p {
+        margin-left: 70%;
+      }
+
+      .multi:nth-of-type(9) a,
+      .multi:nth-of-type(9) p {
+        margin-right: 32%;
+      }
+
+      .multi:nth-of-type(10) a,
+      .multi:nth-of-type(10) p {
+        margin-left: 32%;
+      }
+
+      .multi:nth-of-type(11) a,
+      .multi:nth-of-type(11) p {
+        margin-right: -40%;
+      }
+
+      .multi:nth-of-type(12) a,
+      .multi:nth-of-type(12) p {
+        margin-left: -38%;
+      }
+
+
+    }
+
+    @media screen and (max-width: 1366px) {
+      .single-logo-center>h1 {
+        font-size: 1.8rem;
+        padding-top: 0.8em;
+      }
+
+      .text-center {
+        left: 25%;
+        top: 34%;
+      }
+
+      .akam-gif-logo {
+        width: 60%;
+      }
+
+      .solo-lang a,
+      .lang-cont a,
+      .lang-div a {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .lang-cont {
+        padding-top: 33px;
+      }
+
+      .lang-div {
+        margin: 0em auto 1em;
+        padding: 0;
+        width: 83%;
+        text-align: center;
+        gap: 7px;
+      }
+
+      .lang-div .multi {
+        margin: 0;
+        width: 40%;
+      }
+      .multi p{
+        margin: 0;
+      }
+
+      .multi:nth-of-type(1) a,
+      .multi:nth-of-type(1) p {
+        margin-right: -35%;
+      }
+
+      .multi:nth-of-type(2) a,
+      .multi:nth-of-type(2) p {
+        margin-left: -35%;
+      }
+
+      .multi:nth-of-type(3) a,
+      .multi:nth-of-type(3) p {
+        margin-right: 32%;
+      }
+
+      .multi:nth-of-type(4) a,
+      .multi:nth-of-type(4) p {
+        margin-left: 32%;
+      }
+
+      .multi:nth-of-type(5) a,
+      .multi:nth-of-type(5) p {
+        margin-right: 75%;
+      }
+
+      .multi:nth-of-type(6) a,
+      .multi:nth-of-type(6) p {
+        margin-left: 75%;
+      }
+
+      .multi:nth-of-type(7) a,
+      .multi:nth-of-type(7) p {
+        margin-right: 75%;
+      }
+
+      .multi:nth-of-type(8) a,
+      .multi:nth-of-type(8) p {
+        margin-left: 75%;
+      }
+
+      .multi:nth-of-type(9) a,
+      .multi:nth-of-type(9) p {
+        margin-right: 32%;
+      }
+
+      .multi:nth-of-type(10) a,
+      .multi:nth-of-type(10) p {
+        margin-left: 32%;
+      }
+
+      .multi:nth-of-type(11) a,
+      .multi:nth-of-type(11) p {
+        margin-right: -40%;
+      }
+
+      .multi:nth-of-type(12) a,
+      .multi:nth-of-type(12) p {
+        margin-left: -35%;
+      }
+
+
+    }
+
+    @media screen and (max-width: 1280px) {
+      .akam-gif-logo {
+        width: 58%;
+      }
+      .text-center {
+        left: 25%;
+        top: 32%;
+      }
+
+      .single-logo-center>h1 {
+        font-size: 1.6rem;
+        padding-top: 0.6em;
+      }
+
+      .lang-cont {
+        padding-top: 30px;
+      }
+
+      .multi:nth-of-type(5) a,
+      .multi:nth-of-type(5) p {
+        margin-right: 75%;
+      }
+
+      .multi:nth-of-type(6) a,
+      .multi:nth-of-type(6) p {
+        margin-left: 75%;
+      }
+
+      .multi:nth-of-type(7) a,
+      .multi:nth-of-type(7) p {
+        margin-right: 75%;
+      }
+
+      .multi:nth-of-type(8) a,
+      .multi:nth-of-type(8) p {
+        margin-left: 75%;
+      }
+    }
+
+
+    @media screen and (max-width: 1024px) {
+      .text-center {
+        left: 18%;
+        top: 30%;
+      }
+
+      .lang-div {
+        width: 90%;
+      }
+
+      .solo-lang a,
+      .lang-cont a,
+      .lang-div a {
+        font-size: 25px;
+        font-weight: 600;
+      }
+
+      .solo-lang p {
+        /* margin-bottom: 5px; */
+      }
+
+      .multi:nth-of-type(1) a,
+      .multi:nth-of-type(1) p {
+        margin-right: -19%;
+      }
+
+      .multi:nth-of-type(2) a,
+      .multi:nth-of-type(2) p {
+        margin-left: -19%;
+      }
+
+      .multi:nth-of-type(3) a,
+      .multi:nth-of-type(3) p {
+        margin-right: 35%;
+      }
+
+      .multi:nth-of-type(4) a,
+      .multi:nth-of-type(4) p {
+        margin-left: 32%;
+      }
+
+      .multi:nth-of-type(5) a,
+      .multi:nth-of-type(5) p {
+        margin-right: 85%;
+      }
+
+      .multi:nth-of-type(6) a,
+      .multi:nth-of-type(6) p {
+        margin-left: 85%;
+      }
+
+      .multi:nth-of-type(7) a,
+      .multi:nth-of-type(7) p {
+        margin-right: 85%;
+      }
+
+      .multi:nth-of-type(8) a,
+      .multi:nth-of-type(8) p {
+        margin-left: 85%;
+      }
+
+      .multi:nth-of-type(9) a,
+      .multi:nth-of-type(9) p {
+        margin-right: 32%;
+      }
+
+      .multi:nth-of-type(10) a,
+      .multi:nth-of-type(10) p {
+        margin-left: 38%;
+      }
+
+      .multi:nth-of-type(11) a,
+      .multi:nth-of-type(11) p {
+        margin-right: -40%;
+      }
+
+      .multi:nth-of-type(12) a,
+      .multi:nth-of-type(12) p {
+        margin-left: -32%;
+      }
+    }
+
+
+    @media screen and (max-width: 767px) {
+
+      body,
+      .bg {
+        overflow-y: scroll;
+      }
+
+      .single-logo-center>h1 {
+        font-size: 1.4rem;
+        padding-top: 0.2em;
+      }
+
+      .text-center {
+        position: static;
+      }
+
+      .akam-gif-logo {
+        width: 70%;
+      }
+
+      .single-logo-center {
+        padding-top: 1em;
+      }
+
+      .multi:nth-of-type(n) a,
+      .multi:nth-of-type(n) p {
+        margin: 0;
+      }
+
+      .lang-cont {
+        padding-top: 1px;
+      }
+
+      .lang-div {
+        gap: 0px;
+      }
+
+      .lang-div .multi {
+        margin: 5px 0;
+      }
+
+      .solo-lang p {
+        margin-bottom: 0;
+      }
+
+      .solo-lang a,
+      .lang-cont a,
+      .lang-div a {
+        font-size: 21px;
+        font-weight: 600;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg">
+    <div class="container-fluid">
+      <div class="single-logo-center">
+        <h1>The Financial Services</h1>
+        <div class="text-center">
+          <!-- <img src="img/akam-logo.png" alt="AKAM" class="img-fluid"> -->
+          <img src="https://financialservices.gov.in/digital_archive/akam-xml-new/img/Akam-logo-English.gif" alt="AKAM" class="img-fluid akam-gif-logo">
+        </div>
+        <!-- <h2>Please select your Language</h2> -->
+        <!-- <h2>कृपया अपनी भाषा चुनें</h2> -->
+        <!-- <div class="language-cont lang-div  lang-nav-box"> -->
+
+
+        <div class="lang-cont">
+          <div class="solo-lang">
+            <a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Hindi" id="Hindi" title="Hindi">हिंदी</a>
+              <p>डिजिटल अभिलेखागार</p>
+          </div>
+
+          <div class="lang-div">
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Malayalam" id="Malayalam" title="Malayalam">മലയാളം</a>
+              <p>ഡിജിറ്റൽ ആർകൈവ്</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Urdu" id="Urdu" title="Urdu">اردو</a>
+              <p>ڈیجیٹل آرکائیو</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Tamil" id="Tamil" title="Tamil">தமிழ்</a>
+              <p>டிஜிட்டல் ஆர்கைவ்</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Punjabi" id="Punjabi" title="Punjabi">ਪੰਜਾਬੀ</a>
+              <p>ਡਿਜੀਟਲ ਆਰਕਾਈਵ</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Kannada" id="Kannada" title="Kannada">ಕನ್ನಡ</a>
+              <p>ಡಿಜಿಟಲ್ ಅರ್ಚಿವ್</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=English" id="English" title="English">English</a>
+              <p>Digital Archive</p>
+            </div>
+
+            <!-- <div class="multi"><a href="screen02.html?lang=English" id="English" title="English">English</a><p>Digital Archive</p></div> -->
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Telugu" id="Telugu" title="Telugu">తెలుగు</a>
+              <p>డిజిటల్ ఆర్కైవ్</p>
+            </div>        
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Marathi" id="Marathi" title="Marathi">मराठी</a>
+              <p>डिजिटल आर्काइव</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Assamese" id="Assamese" title="Assamese">অসমীয়া</a>
+              <p>ডিজিটেল আৰ্কাইভ</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Gujarati" id="Gujarati" title="Gujarati">ગુજરાતી</a>
+              <p>ડિજિટલ આર્કાઇવ</p>
+            </div>
+          
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Odiya" id="Odiya" title="Odiya">ଓଡିଆ</a>
+              <p>ଡିଜିଟାଲ ଆର୍କାଇଭ</p>
+            </div>
+
+            <div class="multi"><a href="https://financialservices.gov.in/digital_archive/akam-xml-new/screen02.html?lang=Bengali" id="Bengali" title="Bengali">বাংলা</a>
+              <p>ডিজিটাল আর্কাইভ</p>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    // document.getElementById(val).classList.add("active");
+  </script>
+  <script src="https://financialservices.gov.in/digital_archive/akam-xml-new/cordova.js"></script>
+  <script src="https://financialservices.gov.in/digital_archive/akam-xml-new/js/index.js"></script>
+  <script src="https://financialservices.gov.in/digital_archive/akam-xml-new/js/jquery.min.js"></script>
+  <script src="https://financialservices.gov.in/digital_archive/akam-xml-new/js/popper.min.js"></script>
+  <script src="https://financialservices.gov.in/digital_archive/akam-xml-new/js/bootstrap.min.js"></script>
+</body>
+
+
+<!-- Mirrored from financialservices.gov.in/digital_archive/akam-xml-new/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 12 Nov 2022 13:15:59 GMT -->
+</html>

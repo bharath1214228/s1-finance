@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+financialservices.gov.in	TRUE	/	FALSE	1999999999	TS0187deb2028	01f61e61488ec0fe9ed565a2203c5ca6bea78237af7acbe9e61799a8f4123cfb1a74811541b25fa06655b94ce0ee97cd2c9d81614d
+.financialservices.gov.in	TRUE	/	FALSE	1999999999	SSESS708a742f56fb299fe1f69947a8f8fa5f	g23DhEgYEfJBVlEqn2_5GG-O02rR5fi89XkNNmcpWD4
+financialservices.gov.in	TRUE	/	FALSE	1999999999	TS0187deb2	017986078a753c943d0c425910a6a261847bed5da6d06b7657c0afdee7ae76c12dc193a747b182ea5b3c4cc822eaf09307834f2cd3
+.financialservices.gov.in	TRUE	/	FALSE	1999999999	TS0123dce0	017986078a753c943d0c425910a6a261847bed5da6d06b7657c0afdee7ae76c12dc193a747b182ea5b3c4cc822eaf09307834f2cd3
+

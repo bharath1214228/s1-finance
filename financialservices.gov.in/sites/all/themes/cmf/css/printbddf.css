@@ -1,0 +1,113 @@
+@charset "utf-8";
+@media print {
+	*,body {
+		color:#000 !important;
+		background:transparent!important;
+	}
+	.quicktabs-tabs li.active {
+		text-decoration:underline;
+		
+	}
+	
+.container {
+	width:95% !important;
+}
+.header-container {
+	width:95% !important;
+	padding:10px 0px !important;
+	border-bottom: 1px solid #111;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000 !important;
+	line-height:1.4em;
+}
+.logo{ width:500px !important; float:left;}
+	.innertop-menu, .nationalportal, #header, .carousel-wrapper, .container.footer-top-container,  .toggle-nav-bar, .footer-bottom-wrapper:after, .ico-print, .gallery_panel-wrapper, #block-block-28 {
+	display:none !important;
+}
+.inner-content-portion {
+    width: 100%;
+    float: left;
+}
+.logo-cmf, .copyright-content, .gtranslate {
+    float: none;
+    width: 100% !important;
+    color:#000 !important;
+    text-align: center;
+	border: none;
+}
+.footer-bottom-wrapper a, .links h2, .links ul li a  {
+    color: #000;
+}
+td, th {
+    white-space:normal;
+	word-break: break-all;
+}
+.apply-box a,.apply-box a:hover {
+	display: block;
+    background: rgb(246, 247, 247);
+    padding:10px 20px;
+    color: #000;
+}
+.logo-cmf a {
+    border-right: 1px solid rgba(0, 0, 0, 0);
+    display: inline-block;
+    margin: 0 15px;
+}
+.sw-logo {display:none !important;}
+.gtranslate.skiptranslate{display:none}
+#block-panels-mini-home-quicktab {
+    float: left;
+    width: 100%;
+}
+
+.mid_links .container .links {
+    width: 50%;
+}
+.right_links_panel ul li a {
+    line-height: 40px;
+}
+.right_links_panel ul li span {
+    width: 84px;
+    height: 100%;
+	display:none;
+}
+.right_links_panel ul li a {
+    padding-left: 20px;
+}
+.mid_links .container .links {
+    min-height: inherit;
+    max-height: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+#block-views-our-minister-block-2 {
+    width: 100%;
+}
+#quicktabs-container-home_content li {
+    background: none;
+    margin-bottom: 8px;
+    padding-left: 5px;
+	list-style-type:disc;
+}
+.apply-box a, .right_links_panel ul li a {
+	border-bottom:1px solid #000;
+}
+div.item-list ul li {
+	list-style-type:disc;
+}
+.footer-bottom-container {
+	border-top:1px solid #000;
+}
+
+/*Use of the navbar*/
+.nav-container, #nav, .banner-wrapper, .flexslider{display:block !important;}
+.nav-wrapper{border:#000 solid 0px !important;height:70px !important;margin-top:00px;  background-color: #000 !important;  }
+#nav {display: block !important;	}
+.nav-wrapper ul li{float:left !important ;border:#ccc solid 1px;}
+.nav-wrapper ul li a, .nav-wrapper ul li span{color:#000 !important; }
+.nav-wrapper ul li.active{  border-top: 0px solid #1c5178;    margin-top: 0px;}
+.nav-wrapper ul li a{padding: 0 6px !important;font-size:13px !important}
+
+}
